@@ -5,12 +5,12 @@ title: letomoon.com
 
 <ul class="posts">
   
-  {% for page in site.posts offset:1 limit:5 %}
-  <li><a href="{{ post.url }}">
-    <h3>{{ post.title }}</h3>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
     <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
     <div>{{ post.content }}</div>
-    </a></li>
+  </li>
   {% endfor %}
   
 </ul>
