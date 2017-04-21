@@ -3,11 +3,14 @@ layout: default
 title: letomoon.com
 ---
 
-<h1>{{ page.title }}</h1>
-<ul class="posts">
+<ul class="entries">
   
-  {% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% for post in paginator.posts %}
+  <li><a href="{{ post.url }}">
+    <h3>{{ post.title }}</h3>
+    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+    <div>{{ post.content | truncatehtml | truncatewords: 60 }}</div>
+    </a></li>
   {% endfor %}
   
 </ul>
