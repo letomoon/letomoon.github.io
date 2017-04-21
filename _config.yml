@@ -1,3 +1,4 @@
 name: Lindsey Saunders
 markdown: kramdown
 permalink: /:year/:month/:day/:title
+theme: minimal
