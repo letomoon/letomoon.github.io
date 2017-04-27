@@ -1,13 +1,13 @@
 body {
   background-color: #e7f0f2;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 12px/1.5 "Segoe UI", Georgia, Arial, sans-serif;
+  color:#25256b;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#25256b;
   margin:0 0 20px;
 }
 
@@ -20,36 +20,26 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:22px;
 }
 
 h2 {
-  color:#393939;
+  color:#25256b;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#25256b;
 }
 
 a {
-  color:#267CB9;
-  text-decoration:none;
+  color:#3939aa;
+  text-decoration:overline;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:#3939aa;
+  background-color: #b0b0b1;
   font-weight: bold;
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-}
-
-a:hover small {
-  color:#777;
 }
 
 .wrapper {
@@ -103,7 +93,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -124,14 +114,6 @@ header li {
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
-}
-
-header li:first-child a {
-  border-radius:5px 0 0 5px;
-}
-
-header li:last-child a {
-  border-radius:0 5px 5px 0;
 }
 
 header ul a {
