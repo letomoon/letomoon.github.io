@@ -88,10 +88,10 @@ img {
 }
 
 header {
-  width:140px;
+  width:200px;
   position:fixed;
-  padding: 30px;
-  top: 100px;
+  padding:30px;
+  top:180px;
 }
 
 header ul {
@@ -147,10 +147,10 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  padding:50px;
+  padding:10px;
   position:fixed;
-  left: 400px;
+  left: 200px;
+  top: 100px;
 }
 
 small {
@@ -165,83 +165,7 @@ hr {
 }
 
 footer {
-  width:270px;
   padding:20px;
   position:fixed;
   bottom:10px;
-}
-
-@media print, screen and (max-width: 960px) {
-
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-
-  header {
-    padding-right:320px;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
-  }
-
-  header a small {
-    display:inline;
-  }
-
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
-}
-
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  header {
-    padding:0;
-  }
-
-  header ul, header p.view {
-    position:static;
-  }
-
-  pre, code {
-    word-wrap:normal;
-  }
-}
-
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
-
-  header ul {
-    width:99%;
-  }
-
-  header li, header ul li + li + li {
-    width:33%;
-  }
-}
-
-@media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
 }
