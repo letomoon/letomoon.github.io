@@ -147,7 +147,8 @@ header ul a strong {
 
 section {
   padding:10px;
-  position:fixed;
+  position:relative;
+  width: 50%;
   left: 200px;
   top: 100px;
 }
