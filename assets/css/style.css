@@ -1,6 +1,6 @@
 body {
   background-color: #e7f0f2;
-  padding:50px;
+  padding:0px;
   font: 12px/1.5 "Segoe UI", Georgia, Arial, sans-serif;
   color:#25256b;
   font-weight:400;
@@ -88,7 +88,7 @@ img {
 }
 
 header {
-  width:200px;
+  width:140px;
   position:fixed;
   padding: 30px;
   top: 100px;
@@ -150,7 +150,7 @@ section {
   width:500px;
   padding:50px;
   position:fixed;
-  left: 200px;
+  left: 400px;
 }
 
 small {
